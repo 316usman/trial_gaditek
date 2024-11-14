@@ -166,7 +166,6 @@ def get_chunks(text: str, chunk_size: int = 128) -> List[str]:
                 final_chunks.append(chunk)
         global text_list
         text_list.extend(final_chunks)
-        print (text_list)
         return final_chunks
     except Exception as e:
         print ("*****************ALARM at get_chunks*****************")
