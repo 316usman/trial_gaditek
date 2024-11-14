@@ -1,0 +1,12 @@
+fastapi==0.111.0
+PyMuPDF
+langchain==0.2.7
+nltk
+openai==1.35.13
+pydantic
+python_docx==1.1.2
+python_magic==0.4.27
+python_pptx==0.6.23
+Requests==2.32.3
+faiss-cpu
+numpy
