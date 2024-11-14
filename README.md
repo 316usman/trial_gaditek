@@ -27,30 +27,25 @@ This is a FastAPI application for processing various types of documents, includi
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/fastapi-document-processor.git
-    cd fastapi-document-processor
+    git clone https://github.com/316usman/trial_gaditek
+    cd trial_gaditek
     ```
-
-2. Install the dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Set up the environment variables (create a `.env` file):
+2. Set up the environment variables (create a `.env` file):
 
     ```bash
     OPENAI_API_KEY=your-openai-api-key
-    TESSDATA_PREFIX=/usr/share/tesseract-ocr/4.00/tessdata/
+    ENV=development
+    ```
+
+3. Running the Container:
+
+    ```bash
+    docker build -t trial_gaditek .
+    docker run -d -p 8000:80 trial_gaditek
     ```
 
     Make sure to replace `your-openai-api-key` with your actual OpenAI API key.
 
-4. Run the FastAPI application:
-
-    ```bash
-    uvicorn app.main:app --reload
-    ```
 
 ## Postman Collection
 
@@ -58,7 +53,7 @@ A Postman collection is provided for easy testing of the API endpoints. The coll
 
 ### Import the Collection
 
-1. Download the Postman collection file (e.g., `fastapi-document-processor.postman_collection.json`).
+1. Download the Postman collection file (e.g., `New Collection.postman_collection.json`).
 2. Open Postman and click on the **Import** button.
 3. Select the downloaded collection file to import it into Postman.
 

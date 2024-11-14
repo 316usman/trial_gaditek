@@ -8,7 +8,6 @@ import os
 from langchain.text_splitter import NLTKTextSplitter, RecursiveCharacterTextSplitter
 import nltk
 from nltk.tokenize import word_tokenize
-from rank_bm25 import BM25Okapi
 import requests
 import faiss
 import numpy as np
