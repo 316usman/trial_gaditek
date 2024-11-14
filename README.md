@@ -1,6 +1,6 @@
 # FastAPI RAG Bot
 
-This is a FastAPI application for processing various types of documents, including PDFs, DOCX, and PPTX files. The application provides multiple endpoints for uploading files, extracting their text, chunking the extracted text, and querying the stored document chunks for relevant information. It integrates with OpenAI's embeddings to enhance document search functionality.
+This is a FastAPI application for processing various types of documents, including PDFs, DOCX, and PPTX files. The application provides multiple endpoints for uploading files, extracting their text, chunking the extracted text, and querying the stored document chunks for relevant information. It integrates with OpenAI's embeddings to enhance text search functionality.
 
 ## Features
 
